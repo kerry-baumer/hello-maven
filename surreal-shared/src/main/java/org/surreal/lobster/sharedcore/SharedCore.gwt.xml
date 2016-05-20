@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <inherits name='com.google.gwt.user.User'/>
+  <source path='appcontroller'/>
+  <source path='broker'/>
+  <source path='common'/>
+  <source path='constants'/>
+  <source path='data'/>
+  <source path='databroker'/>
+  <source path='event'/>
+  <source path='model'/>
+  <source path='navigation'/>
+  <source path='presenter'/>
+  <source path='provider'/>
+  <source path='shared'/>
+  <source path='util'/>
+  <source path='validation'/>
+  <source path='view'/>
+</module>

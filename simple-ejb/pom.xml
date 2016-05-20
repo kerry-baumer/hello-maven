@@ -66,7 +66,6 @@
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
-            <scope>provided</scope>
         </dependency>
 
         <!-- JSR-303 (Bean Validation) Implementation -->
@@ -106,6 +105,23 @@
         	<artifactId>sample-domain</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         	<type>ejb</type>
+        </dependency>
+        <dependency>
+        	<groupId>org.hibernate</groupId>
+        	<artifactId>
+        		hibernate-validator-annotation-processor
+        	</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>org.hibernate</groupId>
+        	<artifactId>hibernate-annotations</artifactId>
+        	<version>3.1beta6</version>
+        </dependency>
+        <dependency>
+        	<groupId>javax.transaction</groupId>
+        	<artifactId>jta</artifactId>
+        	<version>1.1</version>
+        	<scope>provided</scope>
         </dependency>
     </dependencies>
 
